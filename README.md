@@ -1,17 +1,31 @@
-# Survival Bot LIVE
+# ECHO WILDS
 
-Jogo autônomo para transmissões longas: o Survivor explora e coleta recursos sozinho.
+Jogo survival roguelite 2D criado do zero para navegador, celular e PC.
 
-## Rodar
+## O que já existe
+- exploração em mapa grande
+- vida e fome
+- árvores, pedras e frutas coletáveis
+- inimigos que perseguem e atacam
+- combate
+- Companion ECHO com modos Seguir, Ficar e Coletar
+- paredes e fogueira
+- ciclo de dia/noite
+- dificuldade maior à noite
+- salvamento local automático
+- controles touch e teclado
+
+## Rodar no Termux
+
 ```bash
+cd ~/Survival-Bot-LIVE
+git pull
 npm install
 npm run dev
 ```
 
-## Gifts planejados
-- Rosa: comida/vida
-- Heart Me: velocidade
-- Rosquinha: item especial
-- Galáxia: evento lendário
+Abra: `http://localhost:5173/`
 
-A interface não inventa eventos TikTok: gifts reais só devem entrar por uma fonte LIVE válida/autorizada.
+## Controles
+PC: WASD/setas, Espaço para atacar, E para coletar.
+Celular: direcional e botões na tela.
