@@ -19,7 +19,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
     private WebView webView;
-    private static final String HOME = "https://nexus-ai-v2-production.up.railway.app";
+    private static final String HOME = "file:///android_asset/index.html";
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override protected void onCreate(Bundle savedInstanceState) {
